@@ -1,0 +1,8 @@
+public  static  void concatenate(int a, int b){
+    //Complete the code below to concatenate a and b
+    String num1=String.valueOf(a);
+    String num2=String.valueOf(b);
+    String ans =num1+num2;
+    //Complete the code above to concatenate a and b
+    System.out.println(ans);
+}
