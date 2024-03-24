@@ -1,0 +1,5 @@
+public static int typeCast(double d){
+    // code here
+    int ans=(int)d;
+    return ans;
+}
