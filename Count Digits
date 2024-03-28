@@ -1,0 +1,18 @@
+class Solution{
+    static int evenlyDivides(int N){
+        // code here
+        int digit=1;
+        int c=0;
+        int original=N;
+        
+        while(N!=0){
+            digit=N%10;
+            
+            if( digit!=0 && original%digit==0 ){
+                c++;
+                }
+           N/=10;
+        }
+        return c;
+    }
+}
